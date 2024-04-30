@@ -1,0 +1,5496 @@
+|FBU
+clk => clk.IN1
+rst_n => rst_n.IN1
+mode[0] => mode_temp[0].DATAIN
+mode[1] => mode_temp[1].DATAIN
+a[0] => a_temp[0].DATAIN
+a[1] => a_temp[1].DATAIN
+a[2] => a_temp[2].DATAIN
+a[3] => a_temp[3].DATAIN
+a[4] => a_temp[4].DATAIN
+a[5] => a_temp[5].DATAIN
+a[6] => a_temp[6].DATAIN
+a[7] => a_temp[7].DATAIN
+a[8] => a_temp[8].DATAIN
+a[9] => a_temp[9].DATAIN
+a[10] => a_temp[10].DATAIN
+a[11] => a_temp[11].DATAIN
+a[12] => a_temp[12].DATAIN
+a[13] => a_temp[13].DATAIN
+a[14] => a_temp[14].DATAIN
+a[15] => a_temp[15].DATAIN
+a[16] => a_temp[16].DATAIN
+a[17] => a_temp[17].DATAIN
+a[18] => a_temp[18].DATAIN
+a[19] => a_temp[19].DATAIN
+a[20] => a_temp[20].DATAIN
+a[21] => a_temp[21].DATAIN
+a[22] => a_temp[22].DATAIN
+a[23] => a_temp[23].DATAIN
+a[24] => a_temp[24].DATAIN
+a[25] => a_temp[25].DATAIN
+a[26] => a_temp[26].DATAIN
+a[27] => a_temp[27].DATAIN
+a[28] => a_temp[28].DATAIN
+a[29] => a_temp[29].DATAIN
+a[30] => a_temp[30].DATAIN
+a[31] => a_temp[31].DATAIN
+b[0] => b_temp[0].DATAIN
+b[1] => b_temp[1].DATAIN
+b[2] => b_temp[2].DATAIN
+b[3] => b_temp[3].DATAIN
+b[4] => b_temp[4].DATAIN
+b[5] => b_temp[5].DATAIN
+b[6] => b_temp[6].DATAIN
+b[7] => b_temp[7].DATAIN
+b[8] => b_temp[8].DATAIN
+b[9] => b_temp[9].DATAIN
+b[10] => b_temp[10].DATAIN
+b[11] => b_temp[11].DATAIN
+b[12] => b_temp[12].DATAIN
+b[13] => b_temp[13].DATAIN
+b[14] => b_temp[14].DATAIN
+b[15] => b_temp[15].DATAIN
+b[16] => b_temp[16].DATAIN
+b[17] => b_temp[17].DATAIN
+b[18] => b_temp[18].DATAIN
+b[19] => b_temp[19].DATAIN
+b[20] => b_temp[20].DATAIN
+b[21] => b_temp[21].DATAIN
+b[22] => b_temp[22].DATAIN
+b[23] => b_temp[23].DATAIN
+b[24] => b_temp[24].DATAIN
+b[25] => b_temp[25].DATAIN
+b[26] => b_temp[26].DATAIN
+b[27] => b_temp[27].DATAIN
+b[28] => b_temp[28].DATAIN
+b[29] => b_temp[29].DATAIN
+b[30] => b_temp[30].DATAIN
+b[31] => b_temp[31].DATAIN
+w[0] => w_temp[0].DATAIN
+w[1] => w_temp[1].DATAIN
+w[2] => w_temp[2].DATAIN
+w[3] => w_temp[3].DATAIN
+w[4] => w_temp[4].DATAIN
+w[5] => w_temp[5].DATAIN
+w[6] => w_temp[6].DATAIN
+w[7] => w_temp[7].DATAIN
+w[8] => w_temp[8].DATAIN
+w[9] => w_temp[9].DATAIN
+w[10] => w_temp[10].DATAIN
+w[11] => w_temp[11].DATAIN
+w[12] => w_temp[12].DATAIN
+w[13] => w_temp[13].DATAIN
+w[14] => w_temp[14].DATAIN
+w[15] => w_temp[15].DATAIN
+w[16] => w_temp[16].DATAIN
+w[17] => w_temp[17].DATAIN
+w[18] => w_temp[18].DATAIN
+w[19] => w_temp[19].DATAIN
+w[20] => w_temp[20].DATAIN
+w[21] => w_temp[21].DATAIN
+w[22] => w_temp[22].DATAIN
+w[23] => w_temp[23].DATAIN
+w[24] => w_temp[24].DATAIN
+w[25] => w_temp[25].DATAIN
+w[26] => w_temp[26].DATAIN
+w[27] => w_temp[27].DATAIN
+w[28] => w_temp[28].DATAIN
+w[29] => w_temp[29].DATAIN
+w[30] => w_temp[30].DATAIN
+w[31] => w_temp[31].DATAIN
+c[0] <= c[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[4] <= c[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[5] <= c[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[6] <= c[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[7] <= c[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[8] <= c[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[9] <= c[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[10] <= c[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[11] <= c[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[12] <= c[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[13] <= c[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[14] <= c[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[15] <= c[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[16] <= c[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[17] <= c[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[18] <= c[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[19] <= c[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[20] <= c[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[21] <= c[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[22] <= c[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[23] <= c[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[24] <= c[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[25] <= c[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[26] <= c[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[27] <= c[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[28] <= c[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[29] <= c[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[30] <= c[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[31] <= c[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[0] <= d[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[1] <= d[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[2] <= d[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[3] <= d[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[4] <= d[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[5] <= d[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[6] <= d[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[7] <= d[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[8] <= d[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[9] <= d[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[10] <= d[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[11] <= d[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[12] <= d[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[13] <= d[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[14] <= d[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[15] <= d[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[16] <= d[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[17] <= d[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[18] <= d[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[19] <= d[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[20] <= d[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[21] <= d[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[22] <= d[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[23] <= d[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[24] <= d[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[25] <= d[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[26] <= d[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[27] <= d[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[28] <= d[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[29] <= d[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[30] <= d[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+d[31] <= d[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0
+clk => clk.IN4
+rst_n => rst_n.IN2
+mode[0] => mode1[0].DATAIN
+mode[1] => mode1[1].DATAIN
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+w[0] => w[0].IN2
+w[1] => w[1].IN2
+w[2] => w[2].IN2
+w[3] => w[3].IN2
+w[4] => w[4].IN2
+w[5] => w[5].IN2
+w[6] => w[6].IN2
+w[7] => w[7].IN2
+w[8] => w[8].IN2
+w[9] => w[9].IN2
+w[10] => w[10].IN2
+w[11] => w[11].IN2
+w[12] => w[12].IN2
+w[13] => w[13].IN2
+w[14] => w[14].IN2
+w[15] => w[15].IN2
+w[16] => w[16].IN2
+w[17] => w[17].IN2
+w[18] => w[18].IN2
+w[19] => w[19].IN2
+w[20] => w[20].IN2
+w[21] => w[21].IN2
+w[22] => w[22].IN2
+w[23] => w[23].IN2
+w[24] => w[24].IN2
+w[25] => w[25].IN2
+w[26] => w[26].IN2
+w[27] => w[27].IN2
+w[28] => w[28].IN2
+w[29] => w[29].IN2
+w[30] => w[30].IN2
+w[31] => w[31].IN2
+c[0] <= mux_xx2_p:imux_xx21.port7
+c[1] <= mux_xx2_p:imux_xx21.port7
+c[2] <= mux_xx2_p:imux_xx21.port7
+c[3] <= mux_xx2_p:imux_xx21.port7
+c[4] <= mux_xx2_p:imux_xx21.port7
+c[5] <= mux_xx2_p:imux_xx21.port7
+c[6] <= mux_xx2_p:imux_xx21.port7
+c[7] <= mux_xx2_p:imux_xx21.port7
+c[8] <= mux_xx2_p:imux_xx21.port7
+c[9] <= mux_xx2_p:imux_xx21.port7
+c[10] <= mux_xx2_p:imux_xx21.port7
+c[11] <= mux_xx2_p:imux_xx21.port7
+c[12] <= mux_xx2_p:imux_xx21.port7
+c[13] <= mux_xx2_p:imux_xx21.port7
+c[14] <= mux_xx2_p:imux_xx21.port7
+c[15] <= mux_xx2_p:imux_xx21.port7
+c[16] <= mux_xx2_p:imux_xx21.port7
+c[17] <= mux_xx2_p:imux_xx21.port7
+c[18] <= mux_xx2_p:imux_xx21.port7
+c[19] <= mux_xx2_p:imux_xx21.port7
+c[20] <= mux_xx2_p:imux_xx21.port7
+c[21] <= mux_xx2_p:imux_xx21.port7
+c[22] <= mux_xx2_p:imux_xx21.port7
+c[23] <= mux_xx2_p:imux_xx21.port7
+c[24] <= mux_xx2_p:imux_xx21.port7
+c[25] <= mux_xx2_p:imux_xx21.port7
+c[26] <= mux_xx2_p:imux_xx21.port7
+c[27] <= mux_xx2_p:imux_xx21.port7
+c[28] <= mux_xx2_p:imux_xx21.port7
+c[29] <= mux_xx2_p:imux_xx21.port7
+c[30] <= mux_xx2_p:imux_xx21.port7
+c[31] <= mux_xx2_p:imux_xx21.port7
+d[0] <= mux_xx2_p:imux_xx22.port7
+d[1] <= mux_xx2_p:imux_xx22.port7
+d[2] <= mux_xx2_p:imux_xx22.port7
+d[3] <= mux_xx2_p:imux_xx22.port7
+d[4] <= mux_xx2_p:imux_xx22.port7
+d[5] <= mux_xx2_p:imux_xx22.port7
+d[6] <= mux_xx2_p:imux_xx22.port7
+d[7] <= mux_xx2_p:imux_xx22.port7
+d[8] <= mux_xx2_p:imux_xx22.port7
+d[9] <= mux_xx2_p:imux_xx22.port7
+d[10] <= mux_xx2_p:imux_xx22.port7
+d[11] <= mux_xx2_p:imux_xx22.port7
+d[12] <= mux_xx2_p:imux_xx22.port7
+d[13] <= mux_xx2_p:imux_xx22.port7
+d[14] <= mux_xx2_p:imux_xx22.port7
+d[15] <= mux_xx2_p:imux_xx22.port7
+d[16] <= mux_xx2_p:imux_xx22.port7
+d[17] <= mux_xx2_p:imux_xx22.port7
+d[18] <= mux_xx2_p:imux_xx22.port7
+d[19] <= mux_xx2_p:imux_xx22.port7
+d[20] <= mux_xx2_p:imux_xx22.port7
+d[21] <= mux_xx2_p:imux_xx22.port7
+d[22] <= mux_xx2_p:imux_xx22.port7
+d[23] <= mux_xx2_p:imux_xx22.port7
+d[24] <= mux_xx2_p:imux_xx22.port7
+d[25] <= mux_xx2_p:imux_xx22.port7
+d[26] <= mux_xx2_p:imux_xx22.port7
+d[27] <= mux_xx2_p:imux_xx22.port7
+d[28] <= mux_xx2_p:imux_xx22.port7
+d[29] <= mux_xx2_p:imux_xx22.port7
+d[30] <= mux_xx2_p:imux_xx22.port7
+d[31] <= mux_xx2_p:imux_xx22.port7
+
+
+|FBU|butterfly:butterfly_0|MULT3:iMULT_0
+clock => ~NO_FANOUT~
+dataa[0] => Mult0.IN31
+dataa[1] => Mult0.IN30
+dataa[2] => Mult0.IN29
+dataa[3] => Mult0.IN28
+dataa[4] => Mult0.IN27
+dataa[5] => Mult0.IN26
+dataa[6] => Mult0.IN25
+dataa[7] => Mult0.IN24
+dataa[8] => Mult0.IN23
+dataa[9] => Mult0.IN22
+dataa[10] => Mult0.IN21
+dataa[11] => Mult0.IN20
+dataa[12] => Mult0.IN19
+dataa[13] => Mult0.IN18
+dataa[14] => Mult0.IN17
+dataa[15] => Mult0.IN16
+dataa[16] => Mult0.IN15
+dataa[17] => Mult0.IN14
+dataa[18] => Mult0.IN13
+dataa[19] => Mult0.IN12
+dataa[20] => Mult0.IN11
+dataa[21] => Mult0.IN10
+dataa[22] => Mult0.IN9
+dataa[23] => Mult0.IN8
+dataa[24] => Mult0.IN7
+dataa[25] => Mult0.IN6
+dataa[26] => Mult0.IN5
+dataa[27] => Mult0.IN4
+dataa[28] => Mult0.IN3
+dataa[29] => Mult0.IN2
+dataa[30] => Mult0.IN1
+dataa[31] => Mult0.IN0
+datab[0] => Mult0.IN63
+datab[1] => Mult0.IN62
+datab[2] => Mult0.IN61
+datab[3] => Mult0.IN60
+datab[4] => Mult0.IN59
+datab[5] => Mult0.IN58
+datab[6] => Mult0.IN57
+datab[7] => Mult0.IN56
+datab[8] => Mult0.IN55
+datab[9] => Mult0.IN54
+datab[10] => Mult0.IN53
+datab[11] => Mult0.IN52
+datab[12] => Mult0.IN51
+datab[13] => Mult0.IN50
+datab[14] => Mult0.IN49
+datab[15] => Mult0.IN48
+datab[16] => Mult0.IN47
+datab[17] => Mult0.IN46
+datab[18] => Mult0.IN45
+datab[19] => Mult0.IN44
+datab[20] => Mult0.IN43
+datab[21] => Mult0.IN42
+datab[22] => Mult0.IN41
+datab[23] => Mult0.IN40
+datab[24] => Mult0.IN39
+datab[25] => Mult0.IN38
+datab[26] => Mult0.IN37
+datab[27] => Mult0.IN36
+datab[28] => Mult0.IN35
+datab[29] => Mult0.IN34
+datab[30] => Mult0.IN33
+datab[31] => Mult0.IN32
+result[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[16] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[17] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[18] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[19] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[20] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[21] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[22] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[23] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[24] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[25] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[26] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[27] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[28] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[29] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[32] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[33] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[34] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[35] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[36] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[37] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[38] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[39] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[40] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[41] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[42] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[43] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[44] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[45] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[46] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[47] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[48] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[49] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[50] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[51] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[52] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[53] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[54] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[55] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[56] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[57] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[58] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[59] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[60] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[61] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[62] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[63] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|MULT3:iMULT_1
+clock => ~NO_FANOUT~
+dataa[0] => Mult0.IN31
+dataa[1] => Mult0.IN30
+dataa[2] => Mult0.IN29
+dataa[3] => Mult0.IN28
+dataa[4] => Mult0.IN27
+dataa[5] => Mult0.IN26
+dataa[6] => Mult0.IN25
+dataa[7] => Mult0.IN24
+dataa[8] => Mult0.IN23
+dataa[9] => Mult0.IN22
+dataa[10] => Mult0.IN21
+dataa[11] => Mult0.IN20
+dataa[12] => Mult0.IN19
+dataa[13] => Mult0.IN18
+dataa[14] => Mult0.IN17
+dataa[15] => Mult0.IN16
+dataa[16] => Mult0.IN15
+dataa[17] => Mult0.IN14
+dataa[18] => Mult0.IN13
+dataa[19] => Mult0.IN12
+dataa[20] => Mult0.IN11
+dataa[21] => Mult0.IN10
+dataa[22] => Mult0.IN9
+dataa[23] => Mult0.IN8
+dataa[24] => Mult0.IN7
+dataa[25] => Mult0.IN6
+dataa[26] => Mult0.IN5
+dataa[27] => Mult0.IN4
+dataa[28] => Mult0.IN3
+dataa[29] => Mult0.IN2
+dataa[30] => Mult0.IN1
+dataa[31] => Mult0.IN0
+datab[0] => Mult0.IN63
+datab[1] => Mult0.IN62
+datab[2] => Mult0.IN61
+datab[3] => Mult0.IN60
+datab[4] => Mult0.IN59
+datab[5] => Mult0.IN58
+datab[6] => Mult0.IN57
+datab[7] => Mult0.IN56
+datab[8] => Mult0.IN55
+datab[9] => Mult0.IN54
+datab[10] => Mult0.IN53
+datab[11] => Mult0.IN52
+datab[12] => Mult0.IN51
+datab[13] => Mult0.IN50
+datab[14] => Mult0.IN49
+datab[15] => Mult0.IN48
+datab[16] => Mult0.IN47
+datab[17] => Mult0.IN46
+datab[18] => Mult0.IN45
+datab[19] => Mult0.IN44
+datab[20] => Mult0.IN43
+datab[21] => Mult0.IN42
+datab[22] => Mult0.IN41
+datab[23] => Mult0.IN40
+datab[24] => Mult0.IN39
+datab[25] => Mult0.IN38
+datab[26] => Mult0.IN37
+datab[27] => Mult0.IN36
+datab[28] => Mult0.IN35
+datab[29] => Mult0.IN34
+datab[30] => Mult0.IN33
+datab[31] => Mult0.IN32
+result[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[16] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[17] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[18] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[19] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[20] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[21] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[22] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[23] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[24] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[25] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[26] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[27] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[28] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[29] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[32] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[33] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[34] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[35] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[36] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[37] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[38] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[39] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[40] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[41] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[42] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[43] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[44] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[45] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[46] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[47] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[48] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[49] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[50] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[51] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[52] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[53] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[54] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[55] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[56] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[57] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[58] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[59] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[60] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[61] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[62] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[63] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mont_reduce_1:imont_reduce_1_0
+a[0] => Mult0.IN90
+a[1] => Mult0.IN89
+a[2] => Mult0.IN88
+a[3] => Mult0.IN87
+a[4] => Mult0.IN86
+a[5] => Mult0.IN85
+a[6] => Mult0.IN84
+a[7] => Mult0.IN83
+a[8] => Mult0.IN82
+a[9] => Mult0.IN81
+a[10] => Mult0.IN80
+a[11] => Mult0.IN79
+a[12] => Mult0.IN78
+a[13] => Mult0.IN77
+a[14] => Mult0.IN76
+a[15] => Mult0.IN75
+a[16] => Mult0.IN74
+a[17] => Mult0.IN73
+a[18] => Mult0.IN72
+a[19] => Mult0.IN71
+a[20] => Mult0.IN70
+a[21] => Mult0.IN69
+a[22] => Mult0.IN68
+a[23] => Mult0.IN67
+a[24] => Mult0.IN66
+a[25] => Mult0.IN65
+a[26] => Mult0.IN64
+a[27] => Mult0.IN63
+a[28] => Mult0.IN62
+a[29] => Mult0.IN61
+a[30] => Mult0.IN60
+a[31] => Mult0.IN59
+a[32] => Mult0.IN58
+a[33] => Mult0.IN57
+a[34] => Mult0.IN56
+a[35] => Mult0.IN55
+a[36] => Mult0.IN54
+a[37] => Mult0.IN53
+a[38] => Mult0.IN52
+a[39] => Mult0.IN51
+a[40] => Mult0.IN50
+a[41] => Mult0.IN49
+a[42] => Mult0.IN48
+a[43] => Mult0.IN47
+a[44] => Mult0.IN46
+a[45] => Mult0.IN45
+a[46] => Mult0.IN44
+a[47] => Mult0.IN43
+a[48] => Mult0.IN42
+a[49] => Mult0.IN41
+a[50] => Mult0.IN40
+a[51] => Mult0.IN39
+a[52] => Mult0.IN38
+a[53] => Mult0.IN37
+a[54] => Mult0.IN36
+a[55] => Mult0.IN35
+a[56] => Mult0.IN34
+a[57] => Mult0.IN33
+a[58] => Mult0.IN32
+a[59] => Mult0.IN31
+a[60] => Mult0.IN30
+a[61] => Mult0.IN29
+a[62] => Mult0.IN28
+a[63] => Mult0.IN27
+t[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[9] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[10] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[11] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[16] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[17] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[18] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[19] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[20] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[21] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[22] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[23] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[24] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[25] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[26] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[27] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[28] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[29] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mont_reduce_2:imont_reduce_2_0
+a[0] => Add0.IN128
+a[1] => Add0.IN127
+a[2] => Add0.IN126
+a[3] => Add0.IN125
+a[4] => Add0.IN124
+a[5] => Add0.IN123
+a[6] => Add0.IN122
+a[7] => Add0.IN121
+a[8] => Add0.IN120
+a[9] => Add0.IN119
+a[10] => Add0.IN118
+a[11] => Add0.IN117
+a[12] => Add0.IN116
+a[13] => Add0.IN115
+a[14] => Add0.IN114
+a[15] => Add0.IN113
+a[16] => Add0.IN112
+a[17] => Add0.IN111
+a[18] => Add0.IN110
+a[19] => Add0.IN109
+a[20] => Add0.IN108
+a[21] => Add0.IN107
+a[22] => Add0.IN106
+a[23] => Add0.IN105
+a[24] => Add0.IN104
+a[25] => Add0.IN103
+a[26] => Add0.IN102
+a[27] => Add0.IN101
+a[28] => Add0.IN100
+a[29] => Add0.IN99
+a[30] => Add0.IN98
+a[31] => Add0.IN97
+a[32] => Add0.IN96
+a[33] => Add0.IN95
+a[34] => Add0.IN94
+a[35] => Add0.IN93
+a[36] => Add0.IN92
+a[37] => Add0.IN91
+a[38] => Add0.IN90
+a[39] => Add0.IN89
+a[40] => Add0.IN88
+a[41] => Add0.IN87
+a[42] => Add0.IN86
+a[43] => Add0.IN85
+a[44] => Add0.IN84
+a[45] => Add0.IN83
+a[46] => Add0.IN82
+a[47] => Add0.IN81
+a[48] => Add0.IN80
+a[49] => Add0.IN79
+a[50] => Add0.IN78
+a[51] => Add0.IN77
+a[52] => Add0.IN76
+a[53] => Add0.IN75
+a[54] => Add0.IN74
+a[55] => Add0.IN73
+a[56] => Add0.IN72
+a[57] => Add0.IN71
+a[58] => Add0.IN70
+a[59] => Add0.IN69
+a[60] => Add0.IN68
+a[61] => Add0.IN67
+a[62] => Add0.IN66
+a[63] => Add0.IN65
+t[0] => Mult0.IN55
+t[1] => Mult0.IN54
+t[2] => Mult0.IN53
+t[3] => Mult0.IN52
+t[4] => Mult0.IN51
+t[5] => Mult0.IN50
+t[6] => Mult0.IN49
+t[7] => Mult0.IN48
+t[8] => Mult0.IN47
+t[9] => Mult0.IN46
+t[10] => Mult0.IN45
+t[11] => Mult0.IN44
+t[12] => Mult0.IN43
+t[13] => Mult0.IN42
+t[14] => Mult0.IN41
+t[15] => Mult0.IN40
+t[16] => Mult0.IN39
+t[17] => Mult0.IN38
+t[18] => Mult0.IN37
+t[19] => Mult0.IN36
+t[20] => Mult0.IN35
+t[21] => Mult0.IN34
+t[22] => Mult0.IN33
+t[23] => Mult0.IN32
+t[24] => Mult0.IN31
+t[25] => Mult0.IN30
+t[26] => Mult0.IN29
+t[27] => Mult0.IN28
+t[28] => Mult0.IN27
+t[29] => Mult0.IN26
+t[30] => Mult0.IN25
+t[31] => Mult0.IN24
+result[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[16] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[17] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[18] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[19] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[20] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[21] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[22] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[23] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[24] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[25] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[26] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[27] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[28] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[29] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+A[32] => A[32].IN1
+A[33] => A[33].IN1
+A[34] => A[34].IN1
+A[35] => A[35].IN1
+A[36] => A[36].IN1
+A[37] => A[37].IN1
+A[38] => A[38].IN1
+A[39] => A[39].IN1
+A[40] => A[40].IN1
+A[41] => A[41].IN1
+A[42] => A[42].IN1
+A[43] => A[43].IN1
+A[44] => A[44].IN1
+A[45] => A[45].IN1
+A[46] => A[46].IN1
+A[47] => A[47].IN1
+A[48] => A[48].IN1
+A[49] => A[49].IN1
+A[50] => A[50].IN1
+A[51] => A[51].IN1
+A[52] => A[52].IN1
+A[53] => A[53].IN1
+A[54] => A[54].IN1
+A[55] => A[55].IN1
+A[56] => A[56].IN1
+A[57] => A[57].IN1
+A[58] => A[58].IN1
+A[59] => A[59].IN1
+A[60] => A[60].IN1
+A[61] => A[61].IN1
+A[62] => A[62].IN1
+A[63] => A[63].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+B[32] => B[32].IN1
+B[33] => B[33].IN1
+B[34] => B[34].IN1
+B[35] => B[35].IN1
+B[36] => B[36].IN1
+B[37] => B[37].IN1
+B[38] => B[38].IN1
+B[39] => B[39].IN1
+B[40] => B[40].IN1
+B[41] => B[41].IN1
+B[42] => B[42].IN1
+B[43] => B[43].IN1
+B[44] => B[44].IN1
+B[45] => B[45].IN1
+B[46] => B[46].IN1
+B[47] => B[47].IN1
+B[48] => B[48].IN1
+B[49] => B[49].IN1
+B[50] => B[50].IN1
+B[51] => B[51].IN1
+B[52] => B[52].IN1
+B[53] => B[53].IN1
+B[54] => B[54].IN1
+B[55] => B[55].IN1
+B[56] => B[56].IN1
+B[57] => B[57].IN1
+B[58] => B[58].IN1
+B[59] => B[59].IN1
+B[60] => B[60].IN1
+B[61] => B[61].IN1
+B[62] => B[62].IN1
+B[63] => B[63].IN1
+S[0] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[1] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[2] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[3] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[4] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[5] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[6] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[7] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[8] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[9] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[10] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[11] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[12] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[13] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[14] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[15] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[16] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[17] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[18] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[19] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[20] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[21] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[22] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[23] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[24] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[25] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[26] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[27] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[28] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[29] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[30] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[31] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[32] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[33] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[34] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[35] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[36] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[37] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[38] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[39] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[40] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[41] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[42] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[43] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[44] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[45] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[46] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[47] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[48] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[49] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[50] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[51] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[52] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[53] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[54] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[55] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[56] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[57] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[58] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[59] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[60] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[61] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[62] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[63] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[64] <= cin_generation_logic:cin_generation[15].f.cin
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[0].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[1].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[2].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[3].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[4].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[5].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[6].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[7].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[8].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[9].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[10].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[11].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[12].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[13].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[14].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[15].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+q[16] => q[16].IN1
+q[17] => q[17].IN1
+q[18] => q[18].IN1
+q[19] => q[19].IN1
+q[20] => q[20].IN1
+q[21] => q[21].IN1
+q[22] => q[22].IN1
+q[23] => q[23].IN1
+q[24] => q[24].IN1
+q[25] => q[25].IN1
+q[26] => q[26].IN1
+q[27] => q[27].IN1
+q[28] => q[28].IN1
+q[29] => q[29].IN1
+q[30] => q[30].IN1
+q[31] => q[31].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[7] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[14] <= recursive_case.r_temp[14].DB_MAX_OUTPUT_PORT_TYPE
+r[15] <= recursive_case.r_temp[15].DB_MAX_OUTPUT_PORT_TYPE
+r[16] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[17] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[18] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[19] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[20] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[21] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[22] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[23] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[24] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[25] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[26] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[27] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[28] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[29] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[30] <= prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f.r
+r[31] <= prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= recursive_case.r_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= recursive_case.r_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[14] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+r[15] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= recursive_case.r_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= recursive_case.r_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[14] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+r[15] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_first_half:t1|prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2
+q[0] => r[0].DATAIN
+q[1] => r[1].DATAIN
+q[2] => r_temp[66].IN1
+q[3] => r_temp[67].IN1
+q[4] => r_temp[68].IN1
+q[5] => r_temp[69].IN1
+q[6] => r_temp[70].IN2
+q[7] => r_temp[71].IN2
+q[8] => r_temp[72].IN1
+q[9] => r_temp[73].IN1
+q[10] => r_temp[42].IN1
+q[11] => r_temp[43].IN1
+q[12] => r_temp[76].IN1
+q[13] => r_temp[77].IN1
+q[14] => r_temp[78].IN3
+q[15] => r_temp[79].IN3
+q[16] => r_temp[80].IN1
+q[17] => r_temp[81].IN1
+q[18] => r_temp[50].IN1
+q[19] => r_temp[51].IN1
+q[20] => r_temp[84].IN1
+q[21] => r_temp[85].IN1
+q[22] => r_temp[22].IN1
+q[23] => r_temp[23].IN1
+q[24] => r_temp[88].IN1
+q[25] => r_temp[89].IN1
+q[26] => r_temp[58].IN1
+q[27] => r_temp[59].IN1
+q[28] => r_temp[92].IN1
+q[29] => r_temp[93].IN1
+q[30] => r[30].DATAIN
+q[31] => r[31].DATAIN
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= r_temp[66].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= r_temp[67].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= prefix_logic:final_r_even[2].f.r
+r[5] <= prefix_logic:final_r_even[2].f.r
+r[6] <= r_temp[70].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= r_temp[71].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= prefix_logic:final_r_even[4].f.r
+r[9] <= prefix_logic:final_r_even[4].f.r
+r[10] <= r_temp[74].DB_MAX_OUTPUT_PORT_TYPE
+r[11] <= r_temp[75].DB_MAX_OUTPUT_PORT_TYPE
+r[12] <= prefix_logic:final_r_even[6].f.r
+r[13] <= prefix_logic:final_r_even[6].f.r
+r[14] <= r_temp[78].DB_MAX_OUTPUT_PORT_TYPE
+r[15] <= r_temp[79].DB_MAX_OUTPUT_PORT_TYPE
+r[16] <= prefix_logic:final_r_even[8].f.r
+r[17] <= prefix_logic:final_r_even[8].f.r
+r[18] <= r_temp[82].DB_MAX_OUTPUT_PORT_TYPE
+r[19] <= r_temp[83].DB_MAX_OUTPUT_PORT_TYPE
+r[20] <= prefix_logic:final_r_even[10].f.r
+r[21] <= prefix_logic:final_r_even[10].f.r
+r[22] <= r_temp[86].DB_MAX_OUTPUT_PORT_TYPE
+r[23] <= r_temp[87].DB_MAX_OUTPUT_PORT_TYPE
+r[24] <= prefix_logic:final_r_even[12].f.r
+r[25] <= prefix_logic:final_r_even[12].f.r
+r[26] <= r_temp[90].DB_MAX_OUTPUT_PORT_TYPE
+r[27] <= r_temp[91].DB_MAX_OUTPUT_PORT_TYPE
+r[28] <= prefix_logic:final_r_even[14].f.r
+r[29] <= prefix_logic:final_r_even[14].f.r
+r[30] <= q[30].DB_MAX_OUTPUT_PORT_TYPE
+r[31] <= q[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[0].second_half_level_logic[11].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[5].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[9].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[13].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[2].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[4].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[6].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[8].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[10].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[12].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[14].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[0].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[1].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[2].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[3].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[4].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[5].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[6].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[7].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[8].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[9].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[10].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[11].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[12].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[13].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[14].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodADD|cin_generation_logic:cin_generation[15].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+A[32] => A[32].IN1
+A[33] => A[33].IN1
+A[34] => A[34].IN1
+A[35] => A[35].IN1
+A[36] => A[36].IN1
+A[37] => A[37].IN1
+A[38] => A[38].IN1
+A[39] => A[39].IN1
+A[40] => A[40].IN1
+A[41] => A[41].IN1
+A[42] => A[42].IN1
+A[43] => A[43].IN1
+A[44] => A[44].IN1
+A[45] => A[45].IN1
+A[46] => A[46].IN1
+A[47] => A[47].IN1
+A[48] => A[48].IN1
+A[49] => A[49].IN1
+A[50] => A[50].IN1
+A[51] => A[51].IN1
+A[52] => A[52].IN1
+A[53] => A[53].IN1
+A[54] => A[54].IN1
+A[55] => A[55].IN1
+A[56] => A[56].IN1
+A[57] => A[57].IN1
+A[58] => A[58].IN1
+A[59] => A[59].IN1
+A[60] => A[60].IN1
+A[61] => A[61].IN1
+A[62] => A[62].IN1
+A[63] => A[63].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+B[32] => B[32].IN1
+B[33] => B[33].IN1
+B[34] => B[34].IN1
+B[35] => B[35].IN1
+B[36] => B[36].IN1
+B[37] => B[37].IN1
+B[38] => B[38].IN1
+B[39] => B[39].IN1
+B[40] => B[40].IN1
+B[41] => B[41].IN1
+B[42] => B[42].IN1
+B[43] => B[43].IN1
+B[44] => B[44].IN1
+B[45] => B[45].IN1
+B[46] => B[46].IN1
+B[47] => B[47].IN1
+B[48] => B[48].IN1
+B[49] => B[49].IN1
+B[50] => B[50].IN1
+B[51] => B[51].IN1
+B[52] => B[52].IN1
+B[53] => B[53].IN1
+B[54] => B[54].IN1
+B[55] => B[55].IN1
+B[56] => B[56].IN1
+B[57] => B[57].IN1
+B[58] => B[58].IN1
+B[59] => B[59].IN1
+B[60] => B[60].IN1
+B[61] => B[61].IN1
+B[62] => B[62].IN1
+B[63] => B[63].IN1
+S[0] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[1] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[2] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[3] <= group_q_generation:parallel_FA_CLA_prefix[0].f.s
+S[4] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[5] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[6] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[7] <= group_q_generation:parallel_FA_CLA_prefix[1].f.s
+S[8] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[9] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[10] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[11] <= group_q_generation:parallel_FA_CLA_prefix[2].f.s
+S[12] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[13] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[14] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[15] <= group_q_generation:parallel_FA_CLA_prefix[3].f.s
+S[16] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[17] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[18] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[19] <= group_q_generation:parallel_FA_CLA_prefix[4].f.s
+S[20] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[21] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[22] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[23] <= group_q_generation:parallel_FA_CLA_prefix[5].f.s
+S[24] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[25] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[26] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[27] <= group_q_generation:parallel_FA_CLA_prefix[6].f.s
+S[28] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[29] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[30] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[31] <= group_q_generation:parallel_FA_CLA_prefix[7].f.s
+S[32] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[33] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[34] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[35] <= group_q_generation:parallel_FA_CLA_prefix[8].f.s
+S[36] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[37] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[38] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[39] <= group_q_generation:parallel_FA_CLA_prefix[9].f.s
+S[40] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[41] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[42] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[43] <= group_q_generation:parallel_FA_CLA_prefix[10].f.s
+S[44] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[45] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[46] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[47] <= group_q_generation:parallel_FA_CLA_prefix[11].f.s
+S[48] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[49] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[50] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[51] <= group_q_generation:parallel_FA_CLA_prefix[12].f.s
+S[52] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[53] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[54] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[55] <= group_q_generation:parallel_FA_CLA_prefix[13].f.s
+S[56] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[57] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[58] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[59] <= group_q_generation:parallel_FA_CLA_prefix[14].f.s
+S[60] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[61] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[62] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[63] <= group_q_generation:parallel_FA_CLA_prefix[15].f.s
+S[64] <= cin_generation_logic:cin_generation[15].f.cin
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[0].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[0].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[1].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[1].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[2].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[2].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[3].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[3].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[4].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[4].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[5].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[5].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[6].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[6].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[7].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[7].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[8].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[8].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[9].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[9].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[10].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[10].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[11].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[11].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[12].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[12].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[13].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[13].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[14].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[14].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[15].f
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+cin => c[0].IN1
+s[0] <= FA_CLA_prefix:parallel_FA_CLA_prefix[0].f.s
+s[1] <= FA_CLA_prefix:parallel_FA_CLA_prefix[1].f.s
+s[2] <= FA_CLA_prefix:parallel_FA_CLA_prefix[2].f.s
+s[3] <= FA_CLA_prefix:parallel_FA_CLA_prefix[3].f.s
+qg[0] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+qg[1] <= qg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[0].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[1].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[2].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|group_q_generation:parallel_FA_CLA_prefix[15].f|FA_CLA_prefix:parallel_FA_CLA_prefix[3].f
+a => q.IN0
+a => q.IN0
+b => q.IN1
+b => q.IN1
+cin => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+q[0] <= q.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+q[16] => q[16].IN1
+q[17] => q[17].IN1
+q[18] => q[18].IN1
+q[19] => q[19].IN1
+q[20] => q[20].IN1
+q[21] => q[21].IN1
+q[22] => q[22].IN1
+q[23] => q[23].IN1
+q[24] => q[24].IN1
+q[25] => q[25].IN1
+q[26] => q[26].IN1
+q[27] => q[27].IN1
+q[28] => q[28].IN1
+q[29] => q[29].IN1
+q[30] => q[30].IN1
+q[31] => q[31].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[7] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[14] <= recursive_case.r_temp[14].DB_MAX_OUTPUT_PORT_TYPE
+r[15] <= recursive_case.r_temp[15].DB_MAX_OUTPUT_PORT_TYPE
+r[16] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[17] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[18] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[19] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[20] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[21] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[22] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[23] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[24] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[25] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[26] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[27] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[28] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[29] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[30] <= prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f.r
+r[31] <= prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= recursive_case.r_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= recursive_case.r_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[14] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+r[15] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+q[8] => q[8].IN1
+q[9] => q[9].IN1
+q[10] => q[10].IN1
+q[11] => q[11].IN1
+q[12] => q[12].IN1
+q[13] => q[13].IN1
+q[14] => q[14].IN1
+q[15] => q[15].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[3] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[6] <= recursive_case.r_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= recursive_case.r_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[9] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[10] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[11] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[12] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[13] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[14] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+r[15] <= prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+q[4] => q[4].IN1
+q[5] => q[5].IN1
+q[6] => q[6].IN1
+q[7] => q[7].IN1
+r[0] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[1] <= parallel_prefix_tree_first_half:recursive_case.recursion_lsbh.r
+r[2] <= recursive_case.r_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= recursive_case.r_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[5] <= parallel_prefix_tree_first_half:recursive_case.recursion_msbh.r
+r[6] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+r[7] <= prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_lsbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh
+q[0] => q[0].IN1
+q[1] => q[1].IN1
+q[2] => q[2].IN1
+q[3] => q[3].IN1
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= prefix_logic:trival_case.f.r
+r[3] <= prefix_logic:trival_case.f.r
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:trival_case.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[6].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|parallel_prefix_tree_first_half:recursive_case.recursion_msbh|prefix_logic:recursive_case.parallel_stitch_up[14].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_first_half:t1|prefix_logic:recursive_case.parallel_stitch_up[30].parallel_stitch_up_produce.f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2
+q[0] => r[0].DATAIN
+q[1] => r[1].DATAIN
+q[2] => r_temp[66].IN1
+q[3] => r_temp[67].IN1
+q[4] => r_temp[68].IN1
+q[5] => r_temp[69].IN1
+q[6] => r_temp[70].IN2
+q[7] => r_temp[71].IN2
+q[8] => r_temp[72].IN1
+q[9] => r_temp[73].IN1
+q[10] => r_temp[42].IN1
+q[11] => r_temp[43].IN1
+q[12] => r_temp[76].IN1
+q[13] => r_temp[77].IN1
+q[14] => r_temp[78].IN3
+q[15] => r_temp[79].IN3
+q[16] => r_temp[80].IN1
+q[17] => r_temp[81].IN1
+q[18] => r_temp[50].IN1
+q[19] => r_temp[51].IN1
+q[20] => r_temp[84].IN1
+q[21] => r_temp[85].IN1
+q[22] => r_temp[22].IN1
+q[23] => r_temp[23].IN1
+q[24] => r_temp[88].IN1
+q[25] => r_temp[89].IN1
+q[26] => r_temp[58].IN1
+q[27] => r_temp[59].IN1
+q[28] => r_temp[92].IN1
+q[29] => r_temp[93].IN1
+q[30] => r[30].DATAIN
+q[31] => r[31].DATAIN
+r[0] <= q[0].DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= q[1].DB_MAX_OUTPUT_PORT_TYPE
+r[2] <= r_temp[66].DB_MAX_OUTPUT_PORT_TYPE
+r[3] <= r_temp[67].DB_MAX_OUTPUT_PORT_TYPE
+r[4] <= prefix_logic:final_r_even[2].f.r
+r[5] <= prefix_logic:final_r_even[2].f.r
+r[6] <= r_temp[70].DB_MAX_OUTPUT_PORT_TYPE
+r[7] <= r_temp[71].DB_MAX_OUTPUT_PORT_TYPE
+r[8] <= prefix_logic:final_r_even[4].f.r
+r[9] <= prefix_logic:final_r_even[4].f.r
+r[10] <= r_temp[74].DB_MAX_OUTPUT_PORT_TYPE
+r[11] <= r_temp[75].DB_MAX_OUTPUT_PORT_TYPE
+r[12] <= prefix_logic:final_r_even[6].f.r
+r[13] <= prefix_logic:final_r_even[6].f.r
+r[14] <= r_temp[78].DB_MAX_OUTPUT_PORT_TYPE
+r[15] <= r_temp[79].DB_MAX_OUTPUT_PORT_TYPE
+r[16] <= prefix_logic:final_r_even[8].f.r
+r[17] <= prefix_logic:final_r_even[8].f.r
+r[18] <= r_temp[82].DB_MAX_OUTPUT_PORT_TYPE
+r[19] <= r_temp[83].DB_MAX_OUTPUT_PORT_TYPE
+r[20] <= prefix_logic:final_r_even[10].f.r
+r[21] <= prefix_logic:final_r_even[10].f.r
+r[22] <= r_temp[86].DB_MAX_OUTPUT_PORT_TYPE
+r[23] <= r_temp[87].DB_MAX_OUTPUT_PORT_TYPE
+r[24] <= prefix_logic:final_r_even[12].f.r
+r[25] <= prefix_logic:final_r_even[12].f.r
+r[26] <= r_temp[90].DB_MAX_OUTPUT_PORT_TYPE
+r[27] <= r_temp[91].DB_MAX_OUTPUT_PORT_TYPE
+r[28] <= prefix_logic:final_r_even[14].f.r
+r[29] <= prefix_logic:final_r_even[14].f.r
+r[30] <= q[30].DB_MAX_OUTPUT_PORT_TYPE
+r[31] <= q[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[0].second_half_level_logic[11].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[5].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[9].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:second_half_level[1].second_half_level_logic[13].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[2].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[4].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[6].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[8].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[10].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[12].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|parallel_prefix_tree_second_half:t2|prefix_logic:final_r_even[14].f
+ql[0] => r.IN0
+ql[1] => r.IN0
+qh[0] => r.IN1
+qh[0] => r.IN1
+qh[1] => r.IN1
+r[0] <= r.DB_MAX_OUTPUT_PORT_TYPE
+r[1] <= r.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[0].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[1].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[2].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[3].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[4].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[5].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[6].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[7].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[8].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[9].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[10].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[11].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[12].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[13].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[14].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|Brent_Kung_Adder:iBKmodSUB|cin_generation_logic:cin_generation[15].f
+r[0] => cin.IN0
+r[1] => cin.IN1
+c0 => cin.IN1
+cin <= cin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mont_reduce_1:imont_reduce_sub_1
+a[0] => Mult0.IN90
+a[1] => Mult0.IN89
+a[2] => Mult0.IN88
+a[3] => Mult0.IN87
+a[4] => Mult0.IN86
+a[5] => Mult0.IN85
+a[6] => Mult0.IN84
+a[7] => Mult0.IN83
+a[8] => Mult0.IN82
+a[9] => Mult0.IN81
+a[10] => Mult0.IN80
+a[11] => Mult0.IN79
+a[12] => Mult0.IN78
+a[13] => Mult0.IN77
+a[14] => Mult0.IN76
+a[15] => Mult0.IN75
+a[16] => Mult0.IN74
+a[17] => Mult0.IN73
+a[18] => Mult0.IN72
+a[19] => Mult0.IN71
+a[20] => Mult0.IN70
+a[21] => Mult0.IN69
+a[22] => Mult0.IN68
+a[23] => Mult0.IN67
+a[24] => Mult0.IN66
+a[25] => Mult0.IN65
+a[26] => Mult0.IN64
+a[27] => Mult0.IN63
+a[28] => Mult0.IN62
+a[29] => Mult0.IN61
+a[30] => Mult0.IN60
+a[31] => Mult0.IN59
+a[32] => Mult0.IN58
+a[33] => Mult0.IN57
+a[34] => Mult0.IN56
+a[35] => Mult0.IN55
+a[36] => Mult0.IN54
+a[37] => Mult0.IN53
+a[38] => Mult0.IN52
+a[39] => Mult0.IN51
+a[40] => Mult0.IN50
+a[41] => Mult0.IN49
+a[42] => Mult0.IN48
+a[43] => Mult0.IN47
+a[44] => Mult0.IN46
+a[45] => Mult0.IN45
+a[46] => Mult0.IN44
+a[47] => Mult0.IN43
+a[48] => Mult0.IN42
+a[49] => Mult0.IN41
+a[50] => Mult0.IN40
+a[51] => Mult0.IN39
+a[52] => Mult0.IN38
+a[53] => Mult0.IN37
+a[54] => Mult0.IN36
+a[55] => Mult0.IN35
+a[56] => Mult0.IN34
+a[57] => Mult0.IN33
+a[58] => Mult0.IN32
+a[59] => Mult0.IN31
+a[60] => Mult0.IN30
+a[61] => Mult0.IN29
+a[62] => Mult0.IN28
+a[63] => Mult0.IN27
+t[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[9] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[10] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[11] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[15] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[16] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[17] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[18] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[19] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[20] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[21] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[22] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[23] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[24] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[25] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[26] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[27] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[28] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[29] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+t[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mont_reduce_2:imont_reduce_sub_2
+a[0] => Add0.IN128
+a[1] => Add0.IN127
+a[2] => Add0.IN126
+a[3] => Add0.IN125
+a[4] => Add0.IN124
+a[5] => Add0.IN123
+a[6] => Add0.IN122
+a[7] => Add0.IN121
+a[8] => Add0.IN120
+a[9] => Add0.IN119
+a[10] => Add0.IN118
+a[11] => Add0.IN117
+a[12] => Add0.IN116
+a[13] => Add0.IN115
+a[14] => Add0.IN114
+a[15] => Add0.IN113
+a[16] => Add0.IN112
+a[17] => Add0.IN111
+a[18] => Add0.IN110
+a[19] => Add0.IN109
+a[20] => Add0.IN108
+a[21] => Add0.IN107
+a[22] => Add0.IN106
+a[23] => Add0.IN105
+a[24] => Add0.IN104
+a[25] => Add0.IN103
+a[26] => Add0.IN102
+a[27] => Add0.IN101
+a[28] => Add0.IN100
+a[29] => Add0.IN99
+a[30] => Add0.IN98
+a[31] => Add0.IN97
+a[32] => Add0.IN96
+a[33] => Add0.IN95
+a[34] => Add0.IN94
+a[35] => Add0.IN93
+a[36] => Add0.IN92
+a[37] => Add0.IN91
+a[38] => Add0.IN90
+a[39] => Add0.IN89
+a[40] => Add0.IN88
+a[41] => Add0.IN87
+a[42] => Add0.IN86
+a[43] => Add0.IN85
+a[44] => Add0.IN84
+a[45] => Add0.IN83
+a[46] => Add0.IN82
+a[47] => Add0.IN81
+a[48] => Add0.IN80
+a[49] => Add0.IN79
+a[50] => Add0.IN78
+a[51] => Add0.IN77
+a[52] => Add0.IN76
+a[53] => Add0.IN75
+a[54] => Add0.IN74
+a[55] => Add0.IN73
+a[56] => Add0.IN72
+a[57] => Add0.IN71
+a[58] => Add0.IN70
+a[59] => Add0.IN69
+a[60] => Add0.IN68
+a[61] => Add0.IN67
+a[62] => Add0.IN66
+a[63] => Add0.IN65
+t[0] => Mult0.IN55
+t[1] => Mult0.IN54
+t[2] => Mult0.IN53
+t[3] => Mult0.IN52
+t[4] => Mult0.IN51
+t[5] => Mult0.IN50
+t[6] => Mult0.IN49
+t[7] => Mult0.IN48
+t[8] => Mult0.IN47
+t[9] => Mult0.IN46
+t[10] => Mult0.IN45
+t[11] => Mult0.IN44
+t[12] => Mult0.IN43
+t[13] => Mult0.IN42
+t[14] => Mult0.IN41
+t[15] => Mult0.IN40
+t[16] => Mult0.IN39
+t[17] => Mult0.IN38
+t[18] => Mult0.IN37
+t[19] => Mult0.IN36
+t[20] => Mult0.IN35
+t[21] => Mult0.IN34
+t[22] => Mult0.IN33
+t[23] => Mult0.IN32
+t[24] => Mult0.IN31
+t[25] => Mult0.IN30
+t[26] => Mult0.IN29
+t[27] => Mult0.IN28
+t[28] => Mult0.IN27
+t[29] => Mult0.IN26
+t[30] => Mult0.IN25
+t[31] => Mult0.IN24
+result[0] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[15] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[16] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[17] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[18] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[19] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[20] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[21] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[22] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[23] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[24] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[25] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[26] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[27] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[28] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[29] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[30] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+result[31] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mux_xx2_p:imux_xx21
+clk => o[0]~reg0.CLK
+clk => o[1]~reg0.CLK
+clk => o[2]~reg0.CLK
+clk => o[3]~reg0.CLK
+clk => o[4]~reg0.CLK
+clk => o[5]~reg0.CLK
+clk => o[6]~reg0.CLK
+clk => o[7]~reg0.CLK
+clk => o[8]~reg0.CLK
+clk => o[9]~reg0.CLK
+clk => o[10]~reg0.CLK
+clk => o[11]~reg0.CLK
+clk => o[12]~reg0.CLK
+clk => o[13]~reg0.CLK
+clk => o[14]~reg0.CLK
+clk => o[15]~reg0.CLK
+clk => o[16]~reg0.CLK
+clk => o[17]~reg0.CLK
+clk => o[18]~reg0.CLK
+clk => o[19]~reg0.CLK
+clk => o[20]~reg0.CLK
+clk => o[21]~reg0.CLK
+clk => o[22]~reg0.CLK
+clk => o[23]~reg0.CLK
+clk => o[24]~reg0.CLK
+clk => o[25]~reg0.CLK
+clk => o[26]~reg0.CLK
+clk => o[27]~reg0.CLK
+clk => o[28]~reg0.CLK
+clk => o[29]~reg0.CLK
+clk => o[30]~reg0.CLK
+clk => o[31]~reg0.CLK
+rst_n => o[0]~reg0.ACLR
+rst_n => o[1]~reg0.ACLR
+rst_n => o[2]~reg0.ACLR
+rst_n => o[3]~reg0.ACLR
+rst_n => o[4]~reg0.ACLR
+rst_n => o[5]~reg0.ACLR
+rst_n => o[6]~reg0.ACLR
+rst_n => o[7]~reg0.ACLR
+rst_n => o[8]~reg0.ACLR
+rst_n => o[9]~reg0.ACLR
+rst_n => o[10]~reg0.ACLR
+rst_n => o[11]~reg0.ACLR
+rst_n => o[12]~reg0.ACLR
+rst_n => o[13]~reg0.ACLR
+rst_n => o[14]~reg0.ACLR
+rst_n => o[15]~reg0.ACLR
+rst_n => o[16]~reg0.ACLR
+rst_n => o[17]~reg0.ACLR
+rst_n => o[18]~reg0.ACLR
+rst_n => o[19]~reg0.ACLR
+rst_n => o[20]~reg0.ACLR
+rst_n => o[21]~reg0.ACLR
+rst_n => o[22]~reg0.ACLR
+rst_n => o[23]~reg0.ACLR
+rst_n => o[24]~reg0.ACLR
+rst_n => o[25]~reg0.ACLR
+rst_n => o[26]~reg0.ACLR
+rst_n => o[27]~reg0.ACLR
+rst_n => o[28]~reg0.ACLR
+rst_n => o[29]~reg0.ACLR
+rst_n => o[30]~reg0.ACLR
+rst_n => o[31]~reg0.ACLR
+a[0] => Mux31.IN2
+a[1] => Mux30.IN2
+a[2] => Mux29.IN2
+a[3] => Mux28.IN2
+a[4] => Mux27.IN2
+a[5] => Mux26.IN2
+a[6] => Mux25.IN2
+a[7] => Mux24.IN2
+a[8] => Mux23.IN2
+a[9] => Mux22.IN2
+a[10] => Mux21.IN2
+a[11] => Mux20.IN2
+a[12] => Mux19.IN2
+a[13] => Mux18.IN2
+a[14] => Mux17.IN2
+a[15] => Mux16.IN2
+a[16] => Mux15.IN2
+a[17] => Mux14.IN2
+a[18] => Mux13.IN2
+a[19] => Mux12.IN2
+a[20] => Mux11.IN2
+a[21] => Mux10.IN2
+a[22] => Mux9.IN2
+a[23] => Mux8.IN2
+a[24] => Mux7.IN2
+a[25] => Mux6.IN2
+a[26] => Mux5.IN2
+a[27] => Mux4.IN2
+a[28] => Mux3.IN2
+a[29] => Mux2.IN2
+a[30] => Mux1.IN2
+a[31] => Mux0.IN2
+b[0] => Mux31.IN3
+b[1] => Mux30.IN3
+b[2] => Mux29.IN3
+b[3] => Mux28.IN3
+b[4] => Mux27.IN3
+b[5] => Mux26.IN3
+b[6] => Mux25.IN3
+b[7] => Mux24.IN3
+b[8] => Mux23.IN3
+b[9] => Mux22.IN3
+b[10] => Mux21.IN3
+b[11] => Mux20.IN3
+b[12] => Mux19.IN3
+b[13] => Mux18.IN3
+b[14] => Mux17.IN3
+b[15] => Mux16.IN3
+b[16] => Mux15.IN3
+b[17] => Mux14.IN3
+b[18] => Mux13.IN3
+b[19] => Mux12.IN3
+b[20] => Mux11.IN3
+b[21] => Mux10.IN3
+b[22] => Mux9.IN3
+b[23] => Mux8.IN3
+b[24] => Mux7.IN3
+b[25] => Mux6.IN3
+b[26] => Mux5.IN3
+b[27] => Mux4.IN3
+b[28] => Mux3.IN3
+b[29] => Mux2.IN3
+b[30] => Mux1.IN3
+b[31] => Mux0.IN3
+c[0] => Mux31.IN4
+c[1] => Mux30.IN4
+c[2] => Mux29.IN4
+c[3] => Mux28.IN4
+c[4] => Mux27.IN4
+c[5] => Mux26.IN4
+c[6] => Mux25.IN4
+c[7] => Mux24.IN4
+c[8] => Mux23.IN4
+c[9] => Mux22.IN4
+c[10] => Mux21.IN4
+c[11] => Mux20.IN4
+c[12] => Mux19.IN4
+c[13] => Mux18.IN4
+c[14] => Mux17.IN4
+c[15] => Mux16.IN4
+c[16] => Mux15.IN4
+c[17] => Mux14.IN4
+c[18] => Mux13.IN4
+c[19] => Mux12.IN4
+c[20] => Mux11.IN4
+c[21] => Mux10.IN4
+c[22] => Mux9.IN4
+c[23] => Mux8.IN4
+c[24] => Mux7.IN4
+c[25] => Mux6.IN4
+c[26] => Mux5.IN4
+c[27] => Mux4.IN4
+c[28] => Mux3.IN4
+c[29] => Mux2.IN4
+c[30] => Mux1.IN4
+c[31] => Mux0.IN4
+d[0] => Mux31.IN5
+d[1] => Mux30.IN5
+d[2] => Mux29.IN5
+d[3] => Mux28.IN5
+d[4] => Mux27.IN5
+d[5] => Mux26.IN5
+d[6] => Mux25.IN5
+d[7] => Mux24.IN5
+d[8] => Mux23.IN5
+d[9] => Mux22.IN5
+d[10] => Mux21.IN5
+d[11] => Mux20.IN5
+d[12] => Mux19.IN5
+d[13] => Mux18.IN5
+d[14] => Mux17.IN5
+d[15] => Mux16.IN5
+d[16] => Mux15.IN5
+d[17] => Mux14.IN5
+d[18] => Mux13.IN5
+d[19] => Mux12.IN5
+d[20] => Mux11.IN5
+d[21] => Mux10.IN5
+d[22] => Mux9.IN5
+d[23] => Mux8.IN5
+d[24] => Mux7.IN5
+d[25] => Mux6.IN5
+d[26] => Mux5.IN5
+d[27] => Mux4.IN5
+d[28] => Mux3.IN5
+d[29] => Mux2.IN5
+d[30] => Mux1.IN5
+d[31] => Mux0.IN5
+s[0] => Mux0.IN1
+s[0] => Mux1.IN1
+s[0] => Mux2.IN1
+s[0] => Mux3.IN1
+s[0] => Mux4.IN1
+s[0] => Mux5.IN1
+s[0] => Mux6.IN1
+s[0] => Mux7.IN1
+s[0] => Mux8.IN1
+s[0] => Mux9.IN1
+s[0] => Mux10.IN1
+s[0] => Mux11.IN1
+s[0] => Mux12.IN1
+s[0] => Mux13.IN1
+s[0] => Mux14.IN1
+s[0] => Mux15.IN1
+s[0] => Mux16.IN1
+s[0] => Mux17.IN1
+s[0] => Mux18.IN1
+s[0] => Mux19.IN1
+s[0] => Mux20.IN1
+s[0] => Mux21.IN1
+s[0] => Mux22.IN1
+s[0] => Mux23.IN1
+s[0] => Mux24.IN1
+s[0] => Mux25.IN1
+s[0] => Mux26.IN1
+s[0] => Mux27.IN1
+s[0] => Mux28.IN1
+s[0] => Mux29.IN1
+s[0] => Mux30.IN1
+s[0] => Mux31.IN1
+s[1] => Mux0.IN0
+s[1] => Mux1.IN0
+s[1] => Mux2.IN0
+s[1] => Mux3.IN0
+s[1] => Mux4.IN0
+s[1] => Mux5.IN0
+s[1] => Mux6.IN0
+s[1] => Mux7.IN0
+s[1] => Mux8.IN0
+s[1] => Mux9.IN0
+s[1] => Mux10.IN0
+s[1] => Mux11.IN0
+s[1] => Mux12.IN0
+s[1] => Mux13.IN0
+s[1] => Mux14.IN0
+s[1] => Mux15.IN0
+s[1] => Mux16.IN0
+s[1] => Mux17.IN0
+s[1] => Mux18.IN0
+s[1] => Mux19.IN0
+s[1] => Mux20.IN0
+s[1] => Mux21.IN0
+s[1] => Mux22.IN0
+s[1] => Mux23.IN0
+s[1] => Mux24.IN0
+s[1] => Mux25.IN0
+s[1] => Mux26.IN0
+s[1] => Mux27.IN0
+s[1] => Mux28.IN0
+s[1] => Mux29.IN0
+s[1] => Mux30.IN0
+s[1] => Mux31.IN0
+o[0] <= o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= o[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[4] <= o[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[5] <= o[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[6] <= o[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[7] <= o[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[8] <= o[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[9] <= o[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[10] <= o[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[11] <= o[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[12] <= o[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[13] <= o[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[14] <= o[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[15] <= o[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[16] <= o[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[17] <= o[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[18] <= o[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[19] <= o[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[20] <= o[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[21] <= o[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[22] <= o[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[23] <= o[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[24] <= o[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[25] <= o[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[26] <= o[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[27] <= o[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[28] <= o[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[29] <= o[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[30] <= o[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[31] <= o[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FBU|butterfly:butterfly_0|mux_xx2_p:imux_xx22
+clk => o[0]~reg0.CLK
+clk => o[1]~reg0.CLK
+clk => o[2]~reg0.CLK
+clk => o[3]~reg0.CLK
+clk => o[4]~reg0.CLK
+clk => o[5]~reg0.CLK
+clk => o[6]~reg0.CLK
+clk => o[7]~reg0.CLK
+clk => o[8]~reg0.CLK
+clk => o[9]~reg0.CLK
+clk => o[10]~reg0.CLK
+clk => o[11]~reg0.CLK
+clk => o[12]~reg0.CLK
+clk => o[13]~reg0.CLK
+clk => o[14]~reg0.CLK
+clk => o[15]~reg0.CLK
+clk => o[16]~reg0.CLK
+clk => o[17]~reg0.CLK
+clk => o[18]~reg0.CLK
+clk => o[19]~reg0.CLK
+clk => o[20]~reg0.CLK
+clk => o[21]~reg0.CLK
+clk => o[22]~reg0.CLK
+clk => o[23]~reg0.CLK
+clk => o[24]~reg0.CLK
+clk => o[25]~reg0.CLK
+clk => o[26]~reg0.CLK
+clk => o[27]~reg0.CLK
+clk => o[28]~reg0.CLK
+clk => o[29]~reg0.CLK
+clk => o[30]~reg0.CLK
+clk => o[31]~reg0.CLK
+rst_n => o[0]~reg0.ACLR
+rst_n => o[1]~reg0.ACLR
+rst_n => o[2]~reg0.ACLR
+rst_n => o[3]~reg0.ACLR
+rst_n => o[4]~reg0.ACLR
+rst_n => o[5]~reg0.ACLR
+rst_n => o[6]~reg0.ACLR
+rst_n => o[7]~reg0.ACLR
+rst_n => o[8]~reg0.ACLR
+rst_n => o[9]~reg0.ACLR
+rst_n => o[10]~reg0.ACLR
+rst_n => o[11]~reg0.ACLR
+rst_n => o[12]~reg0.ACLR
+rst_n => o[13]~reg0.ACLR
+rst_n => o[14]~reg0.ACLR
+rst_n => o[15]~reg0.ACLR
+rst_n => o[16]~reg0.ACLR
+rst_n => o[17]~reg0.ACLR
+rst_n => o[18]~reg0.ACLR
+rst_n => o[19]~reg0.ACLR
+rst_n => o[20]~reg0.ACLR
+rst_n => o[21]~reg0.ACLR
+rst_n => o[22]~reg0.ACLR
+rst_n => o[23]~reg0.ACLR
+rst_n => o[24]~reg0.ACLR
+rst_n => o[25]~reg0.ACLR
+rst_n => o[26]~reg0.ACLR
+rst_n => o[27]~reg0.ACLR
+rst_n => o[28]~reg0.ACLR
+rst_n => o[29]~reg0.ACLR
+rst_n => o[30]~reg0.ACLR
+rst_n => o[31]~reg0.ACLR
+a[0] => Mux31.IN2
+a[1] => Mux30.IN2
+a[2] => Mux29.IN2
+a[3] => Mux28.IN2
+a[4] => Mux27.IN2
+a[5] => Mux26.IN2
+a[6] => Mux25.IN2
+a[7] => Mux24.IN2
+a[8] => Mux23.IN2
+a[9] => Mux22.IN2
+a[10] => Mux21.IN2
+a[11] => Mux20.IN2
+a[12] => Mux19.IN2
+a[13] => Mux18.IN2
+a[14] => Mux17.IN2
+a[15] => Mux16.IN2
+a[16] => Mux15.IN2
+a[17] => Mux14.IN2
+a[18] => Mux13.IN2
+a[19] => Mux12.IN2
+a[20] => Mux11.IN2
+a[21] => Mux10.IN2
+a[22] => Mux9.IN2
+a[23] => Mux8.IN2
+a[24] => Mux7.IN2
+a[25] => Mux6.IN2
+a[26] => Mux5.IN2
+a[27] => Mux4.IN2
+a[28] => Mux3.IN2
+a[29] => Mux2.IN2
+a[30] => Mux1.IN2
+a[31] => Mux0.IN2
+b[0] => Mux31.IN3
+b[1] => Mux30.IN3
+b[2] => Mux29.IN3
+b[3] => Mux28.IN3
+b[4] => Mux27.IN3
+b[5] => Mux26.IN3
+b[6] => Mux25.IN3
+b[7] => Mux24.IN3
+b[8] => Mux23.IN3
+b[9] => Mux22.IN3
+b[10] => Mux21.IN3
+b[11] => Mux20.IN3
+b[12] => Mux19.IN3
+b[13] => Mux18.IN3
+b[14] => Mux17.IN3
+b[15] => Mux16.IN3
+b[16] => Mux15.IN3
+b[17] => Mux14.IN3
+b[18] => Mux13.IN3
+b[19] => Mux12.IN3
+b[20] => Mux11.IN3
+b[21] => Mux10.IN3
+b[22] => Mux9.IN3
+b[23] => Mux8.IN3
+b[24] => Mux7.IN3
+b[25] => Mux6.IN3
+b[26] => Mux5.IN3
+b[27] => Mux4.IN3
+b[28] => Mux3.IN3
+b[29] => Mux2.IN3
+b[30] => Mux1.IN3
+b[31] => Mux0.IN3
+c[0] => Mux31.IN4
+c[1] => Mux30.IN4
+c[2] => Mux29.IN4
+c[3] => Mux28.IN4
+c[4] => Mux27.IN4
+c[5] => Mux26.IN4
+c[6] => Mux25.IN4
+c[7] => Mux24.IN4
+c[8] => Mux23.IN4
+c[9] => Mux22.IN4
+c[10] => Mux21.IN4
+c[11] => Mux20.IN4
+c[12] => Mux19.IN4
+c[13] => Mux18.IN4
+c[14] => Mux17.IN4
+c[15] => Mux16.IN4
+c[16] => Mux15.IN4
+c[17] => Mux14.IN4
+c[18] => Mux13.IN4
+c[19] => Mux12.IN4
+c[20] => Mux11.IN4
+c[21] => Mux10.IN4
+c[22] => Mux9.IN4
+c[23] => Mux8.IN4
+c[24] => Mux7.IN4
+c[25] => Mux6.IN4
+c[26] => Mux5.IN4
+c[27] => Mux4.IN4
+c[28] => Mux3.IN4
+c[29] => Mux2.IN4
+c[30] => Mux1.IN4
+c[31] => Mux0.IN4
+d[0] => Mux31.IN5
+d[1] => Mux30.IN5
+d[2] => Mux29.IN5
+d[3] => Mux28.IN5
+d[4] => Mux27.IN5
+d[5] => Mux26.IN5
+d[6] => Mux25.IN5
+d[7] => Mux24.IN5
+d[8] => Mux23.IN5
+d[9] => Mux22.IN5
+d[10] => Mux21.IN5
+d[11] => Mux20.IN5
+d[12] => Mux19.IN5
+d[13] => Mux18.IN5
+d[14] => Mux17.IN5
+d[15] => Mux16.IN5
+d[16] => Mux15.IN5
+d[17] => Mux14.IN5
+d[18] => Mux13.IN5
+d[19] => Mux12.IN5
+d[20] => Mux11.IN5
+d[21] => Mux10.IN5
+d[22] => Mux9.IN5
+d[23] => Mux8.IN5
+d[24] => Mux7.IN5
+d[25] => Mux6.IN5
+d[26] => Mux5.IN5
+d[27] => Mux4.IN5
+d[28] => Mux3.IN5
+d[29] => Mux2.IN5
+d[30] => Mux1.IN5
+d[31] => Mux0.IN5
+s[0] => Mux0.IN1
+s[0] => Mux1.IN1
+s[0] => Mux2.IN1
+s[0] => Mux3.IN1
+s[0] => Mux4.IN1
+s[0] => Mux5.IN1
+s[0] => Mux6.IN1
+s[0] => Mux7.IN1
+s[0] => Mux8.IN1
+s[0] => Mux9.IN1
+s[0] => Mux10.IN1
+s[0] => Mux11.IN1
+s[0] => Mux12.IN1
+s[0] => Mux13.IN1
+s[0] => Mux14.IN1
+s[0] => Mux15.IN1
+s[0] => Mux16.IN1
+s[0] => Mux17.IN1
+s[0] => Mux18.IN1
+s[0] => Mux19.IN1
+s[0] => Mux20.IN1
+s[0] => Mux21.IN1
+s[0] => Mux22.IN1
+s[0] => Mux23.IN1
+s[0] => Mux24.IN1
+s[0] => Mux25.IN1
+s[0] => Mux26.IN1
+s[0] => Mux27.IN1
+s[0] => Mux28.IN1
+s[0] => Mux29.IN1
+s[0] => Mux30.IN1
+s[0] => Mux31.IN1
+s[1] => Mux0.IN0
+s[1] => Mux1.IN0
+s[1] => Mux2.IN0
+s[1] => Mux3.IN0
+s[1] => Mux4.IN0
+s[1] => Mux5.IN0
+s[1] => Mux6.IN0
+s[1] => Mux7.IN0
+s[1] => Mux8.IN0
+s[1] => Mux9.IN0
+s[1] => Mux10.IN0
+s[1] => Mux11.IN0
+s[1] => Mux12.IN0
+s[1] => Mux13.IN0
+s[1] => Mux14.IN0
+s[1] => Mux15.IN0
+s[1] => Mux16.IN0
+s[1] => Mux17.IN0
+s[1] => Mux18.IN0
+s[1] => Mux19.IN0
+s[1] => Mux20.IN0
+s[1] => Mux21.IN0
+s[1] => Mux22.IN0
+s[1] => Mux23.IN0
+s[1] => Mux24.IN0
+s[1] => Mux25.IN0
+s[1] => Mux26.IN0
+s[1] => Mux27.IN0
+s[1] => Mux28.IN0
+s[1] => Mux29.IN0
+s[1] => Mux30.IN0
+s[1] => Mux31.IN0
+o[0] <= o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= o[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[4] <= o[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[5] <= o[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[6] <= o[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[7] <= o[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[8] <= o[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[9] <= o[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[10] <= o[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[11] <= o[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[12] <= o[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[13] <= o[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[14] <= o[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[15] <= o[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[16] <= o[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[17] <= o[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[18] <= o[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[19] <= o[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[20] <= o[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[21] <= o[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[22] <= o[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[23] <= o[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[24] <= o[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[25] <= o[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[26] <= o[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[27] <= o[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[28] <= o[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[29] <= o[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[30] <= o[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[31] <= o[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
