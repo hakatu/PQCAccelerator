@@ -1,3 +1,23 @@
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 1/5/2024
+// Design Name: 
+// Module Name: butterfly
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
 module fifoctrlbrampack ( 
     clk,
     rst,
@@ -35,8 +55,6 @@ module fifoctrlbrampack (
     wire [ADDRBIT-1:0] wraddr;
     wire read;
     wire [ADDRBIT-1:0] rdaddr;
-
-
 
     // Instantiate the fifoctrlx module
     fifoctrlx #(ADDRBIT

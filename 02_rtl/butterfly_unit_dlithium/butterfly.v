@@ -19,10 +19,19 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-module butterfly(clk,rst_n,mode,a,b,w,c,d);
+module butterfly(
+	clk,
+	rst,
+	mode,
+	a,
+	b,
+	w,
+	c,
+	d
+	);
     
 	input clk;
-	input rst_n;
+	input rst;
 	input [31:0] a;
 	input [31:0] b;
 	input [31:0] w;
@@ -54,8 +63,8 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 
 	MULT3 iMULT_0(clk,b,w,mult_vw);
 	MULT3 iMULT_1(clk,a,w,mult_uw);
-   always @(posedge clk, posedge rst_n) begin
-	   if(rst_n) begin
+   always @(posedge clk) begin
+	   if(rst) begin
 		   a1 <= 'd0;
 			b1 <= 'd0;
 		   mult_vw1 <= 'd0;
@@ -72,8 +81,8 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 	
 	mont_reduce_1 imont_reduce_1_0 (mult_vw1,t_vw);
 
-	always @(posedge clk, posedge rst_n) begin
-	   if(rst_n) begin
+	always @(posedge clk) begin
+	   if(rst) begin
 		   a2 <= 'd0;
 			b2 <= 'd0;
 		   mult_vw2 <= 'd0;
@@ -91,8 +100,9 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 	end
 	
 	mont_reduce_2 imont_reduce_2_0 (mult_vw2,t_vw1,ba_vw);
-	always @(posedge clk, posedge rst_n) begin
-	   if(rst_n) begin
+
+	always @(posedge clk) begin
+	   if(rst) begin
 		   a3 <= 'd0;
 			b3 <= 'd0;
 		   ba_vw1 <= 'd0;
@@ -114,8 +124,8 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 	assign sub_a = (mode3==2'b00)? {32'b0, a3} : mult_uw3;
 	assign sub_b = (mode3==2'b00)? (~{32'b0, ba_vw1} + 1) : (~mult_vw3 + 1);
 	
-	always @(posedge clk, posedge rst_n) begin
-	   if(rst_n) begin
+	always @(posedge clk) begin
+	   if(rst) begin
 		   a4 <= 'd0;
 			b4 <= 'd0;
 			mode4 <= 'd0;
@@ -138,8 +148,8 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 	Brent_Kung_Adder  iBKmodSUB (sub_a1,sub_b1,{sub_c,sub});
 	mont_reduce_1 imont_reduce_sub_1 (sub,sub_t);
 	
-	always @(posedge clk, posedge rst_n) begin
-	   if(rst_n) begin
+	always @(posedge clk) begin
+	   if(rst) begin
 		   a5 <= 'd0;
 			b5 <= 'd0;
 		   sum1 <= 'd0;
@@ -168,8 +178,8 @@ module butterfly(clk,rst_n,mode,a,b,w,c,d);
 	assign c_bp = a5;
 	assign d_bp = b5;
 
-	mux_xx2_p imux_xx21 (clk,rst_n,c_ntt,c_intt,c_bp,16'b0,mode5,cmux);
-	mux_xx2_p imux_xx22 (clk,rst_n,d_ntt,d_intt,d_bp,16'b0,mode5,dmux);
+	mux_xx2_p imux_xx21 (clk,rst,c_ntt,c_intt,c_bp,16'b0,mode5,cmux);
+	mux_xx2_p imux_xx22 (clk,rst,d_ntt,d_intt,d_bp,16'b0,mode5,dmux);
 	
 	assign c = cmux;
 	assign d = dmux;
